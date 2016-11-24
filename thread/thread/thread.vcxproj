@@ -146,6 +146,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ExArray.h" />
+    <ClInclude Include="frame.h" />
     <ClInclude Include="KeyEvent.h" />
   </ItemGroup>
   <ItemGroup>
