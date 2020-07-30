@@ -78,16 +78,26 @@
               "angle": 0,
               "id": "770b365e-a3be-45e3-b061-ac6f71a78d63",
               "z": 3,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "t1",
+                  "type": "Information disclosure",
+                  "description": "sdfg",
+                  "mitigation": "hrewrte"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "actor 2"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -102,8 +112,8 @@
               },
               "vertices": [
                 {
-                  "x": 519,
-                  "y": 222
+                  "x": 508,
+                  "y": 225
                 }
               ],
               "id": "b820d910-e2b7-4576-bf8c-5ba58afec1b2",
@@ -183,8 +193,8 @@
               },
               "vertices": [
                 {
-                  "x": 545,
-                  "y": 153
+                  "x": 495,
+                  "y": 160
                 }
               ],
               "id": "184e5264-0075-4a09-bb24-cd08c0cc6372",
@@ -269,8 +279,8 @@
               },
               "vertices": [
                 {
-                  "x": 379,
-                  "y": 135
+                  "x": 454,
+                  "y": 123
                 }
               ],
               "id": "c1bdb620-eeef-4bb5-b0b8-9599011b65f6",
@@ -281,7 +291,7 @@
         },
         "size": {
           "height": 590,
-          "width": 833.643310546875
+          "width": 833.8270874023438
         }
       }
     ],
