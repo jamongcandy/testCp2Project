@@ -121,6 +121,9 @@
               ],
               "z": 5,
               "hasOpenThreats": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "aabcd",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
